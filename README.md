@@ -1,16 +1,19 @@
 # REACT.JS EXAMPLES
 
+
 ## [scotch](https://scotch.io)
  * [x] [Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
  * [ ] [Getting To Know Flux, Architecture](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
  * [ ] [Creating A Simple Shopping Cart with Flux](https://scotch.io/tutorials/creating-a-simple-shopping-cart-with-react-js-and-flux)
  * [ ] [Build A Real-Time Twitter Stream with Node and React.js](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
 
+## [react/router](https://github.com/rackt/react-router)
+* [x] [Docs](https://github.com/rackt/react-router/tree/master/docs)
+* [x] [Introduction](https://github.com/rackt/react-router/blob/master/docs/Introduction.md)
+* [x] [Route Configuration](https://github.com/rackt/react-router/blob/master/docs/guides/basics/RouteConfiguration.md)
+
 ## [egghead.io](https://egghead.io)
  * [ ] [React Fundamentals](https://egghead.io/series/react-fundamentals) (All videos)
-
-## [react/router](https://github.com/rackt/react-router)
-* [ ] [Docs](https://github.com/rackt/react-router/tree/master/docs)
 
 ## [tylermcginnis](http://tylermcginnis.com/blog/)
 * [ ] [A Comprehensive Guide to Building Apps with React.j](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
