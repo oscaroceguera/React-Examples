@@ -1,7 +1,7 @@
 # REACT.JS EXAMPLES
 
 ## [scotch](https://scotch.io)
- * [ ] [Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+ * [x] [Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
  * [ ] [Getting To Know Flux, Architecture](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
  * [ ] [Creating A Simple Shopping Cart with Flux](https://scotch.io/tutorials/creating-a-simple-shopping-cart-with-react-js-and-flux)
  * [ ] [Build A Real-Time Twitter Stream with Node and React.js](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
@@ -18,12 +18,12 @@
 * [ ] [Architecting React.js Apps with Flux](http://tylermcginnis.com/reactjs-tutorial-pt-3-architecting-react-js-apps-with-flux/)
 
 ## [abalozz](http://abalozz.es/)
-* [ ][Comenzando con React](http://abalozz.es/comenzando-con-react/)
+* [ ] [Comenzando con React](http://abalozz.es/comenzando-con-react/)
 * [ ] [Reutiliza tu código en React usando mixins](http://abalozz.es/reutiliza-tu-codigo-en-react-usando-mixins/)
 
 ## [medium.com](medium.com)
 * [ ] [Flux: Getting Past the Learning Curve](https://medium.com/@tribou/react-and-flux-for-the-rest-of-us-61f90869d51f)
-* [ ] [Flux: Getting Data from an API]
+
 
 ## [tutorialzine](http://tutorialzine.com/)
 * [ ] [5 practical examples](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
