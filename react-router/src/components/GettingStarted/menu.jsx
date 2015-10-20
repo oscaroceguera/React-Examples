@@ -10,6 +10,7 @@ let GettingStarted = React.createClass({
 					<li><Link to="/gettin/count">Count</Link></li>
 					<li><Link to="/gettin/filters">Filters</Link></li>
 				</ul>
+				{this.props.children}
 			</div>
 		)
 	}
