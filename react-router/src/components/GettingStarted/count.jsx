@@ -1,4 +1,5 @@
 import React from 'react';
+import * as styles from './styles';
 
 let Count = React.createClass({
 	incrementCount(){
@@ -13,9 +14,10 @@ let Count = React.createClass({
 	},
 	render(){
 		return (
-			<div className="counter">
-				<h1>Count: {this.state.count}</h1>
+			<div style={styles.COUNTER}>
+				<h1 style={styles.COUNTER_H1}>Count: {this.state.count}</h1>
 				<button
+					style={styles.COUNTER_BTN}
 					type="button"
 					onClick={this.incrementCount}>
 					Increment

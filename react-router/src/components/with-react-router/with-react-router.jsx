@@ -1,16 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router';
+import * as styles from '../commons/styles';
 
 const App = React.createClass({
 	render(){
 		return (
 			<div>
-				<h1>App (With React Router)</h1>
-				<ul>
-					<li><Link to="/withRouter/about">About</Link></li>
-					<li><Link to="/withRouter/inbox">Inbox</Link></li>
-				</ul>
-				{this.props.children}
+				<div style={styles.MENU}>
+					<h1 style={styles.TITLE}>App (With React Router)</h1>
+					<ul style={styles.LIST}>
+						<li style={styles.LIST_ITEMS}>
+							<Link style={styles.LINK_ITEM} to="/withRouter/about">About</Link>
+						</li>
+						<li style={styles.LIST_ITEMS}>
+							<Link style={styles.LINK_ITEM} to="/withRouter/inbox">Inbox</Link>
+						</li>
+					</ul>
+				</div>
+				<div>
+					{this.props.children}
+				</div>
 			</div>
 		)
 	}

@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './filters-list.jsx';
+import * as styles from './styles';
 
 let FilteredList = React.createClass({
 
@@ -37,8 +38,9 @@ let FilteredList = React.createClass({
 
 	render(){
 		return (
-			<div className="filter-list">
+			<div style={styles.FILTER_LIST}>
 				<input
+					style={styles.INPUT}
 					type="text"
 					placeholder="Search"
 					onChange={this.filterList}
