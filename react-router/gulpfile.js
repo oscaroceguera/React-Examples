@@ -90,8 +90,8 @@ gulp.task('html', function(){
 // build
 gulp.task('build', [
 	'clean',
-	'html',
 	'styles',
+	'html',
 	'scripts'
 ]);
 
