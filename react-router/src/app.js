@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import createBrowserHistory from 'history/lib/createBrowserHistory';
+import createHashHistory from 'history/lib/createHashHistory';
 import { Router, IndexRoute, Route, Redirect, Link } from 'react-router';
+import * as styles from './style';
 
 import withRouter from './components/with-react-router/with-react-router.jsx';
 import About from './components/with-react-router/about.jsx';
@@ -12,7 +13,9 @@ import GettingStarted from './components/GettingStarted/menu.jsx';
 import Count from './components/GettingStarted/count.jsx';
 import Filters from './components/GettingStarted/filters.jsx';
 
-let history = createBrowserHistory();
+let history = createHashHistory({
+	queryKey : false
+});
 
 let Dashboard = React.createClass({
 	render(){
@@ -23,13 +26,30 @@ let Dashboard = React.createClass({
 let Ini = React.createClass({
 	render(){
 		return (
-			<div>
-				<h1>Inicio</h1>
-				<ul>
-					<li><Link to="/withRouter">With Router</Link></li>
-					<li><Link to="/inbox">Inbox UI</Link></li>
-					<li><Link to="/gettin">Getting Started and Concepts</Link></li>
-				</ul>
+			<div style={styles.DISPLAY_FLEX}>
+				<div style={styles.MENU}>
+					<h2 style={styles.MENU_TITLE}>Inicio</h2>
+					<ul style={styles.MENU_UL}>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/withRouter">
+								With Router
+							</Link>
+						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/inbox">
+								Inbox UI
+							</Link>
+						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/gettin">
+								Getting Started and Concepts
+							</Link>
+						</li>
+					</ul>
+				</div>
+				<div style={styles.CHILDREN_CONTAINER}>
+					{this.props.children}
+				</div>
 			</div>
 		)
 	}
@@ -39,18 +59,19 @@ let Ini = React.createClass({
 ReactDom.render(
 	(
 		<Router history={history}>
-			<Route path="/" component={Ini} />
-			<Route path="/withRouter" component={withRouter}>
-				<IndexRoute component={Dashboard} />
-				<Route path="about" component={About} />
-				<Route path="inbox" component={Inbox}>
-					<Route path="messages/:id" component={Message} />
+			<Route path="/" component={Ini}>
+				<Route path="/withRouter" component={withRouter}>
+					<IndexRoute component={Dashboard} />
+					<Route path="about" component={About} />
+					<Route path="inbox" component={Inbox}>
+						<Route path="messages/:id" component={Message} />
+					</Route>
 				</Route>
-			</Route>
-			<Route path="/inbox" component={InboxUI} />
-			<Route path="/gettin" component={GettingStarted}>
-				<Route path="count" component={Count} />
-				<Route path="filters" component={Filters} />
+				<Route path="/inbox" component={InboxUI} />
+				<Route path="/gettin" component={GettingStarted}>
+					<Route path="count" component={Count} />
+					<Route path="filters" component={Filters} />
+				</Route>
 			</Route>
 		</Router>
 
