@@ -10,7 +10,7 @@ let EggMenu = React.createClass({
 					<h1 style={styles.TITLE}>JavaScript</h1>
 					<ul style={styles.LIST}>
 						<li style={styles.LIST_ITEMS}>
-							<Link style={styles.LINK_ITEM} to="jscript/intro-lodash">Intro Lodash</Link>
+							<Link style={styles.LINK_ITEM} to="/jscript/intro-lodash">Intro Lodash</Link>
 						</li>
 						{/*<li><Link to="">State Basics</Link></li>
 						<li><Link to="">Filters</Link></li>

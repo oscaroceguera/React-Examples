@@ -12,6 +12,8 @@ import Message from './components/with-react-router/messages.jsx';
 import GettingStarted from './components/GettingStarted/menu.jsx';
 import Count from './components/GettingStarted/count.jsx';
 import Filters from './components/GettingStarted/filters.jsx';
+import JScript from './components/java-script/menu.jsx';
+import introLodash from './components/java-script/intro-lodash.jsx';
 
 let history = createHashHistory({
 	queryKey : false
@@ -45,6 +47,11 @@ let Ini = React.createClass({
 								Getting Started and Concepts
 							</Link>
 						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/jscript">
+								JavaScript
+							</Link>
+						</li>
 					</ul>
 				</div>
 				<div style={styles.CHILDREN_CONTAINER}>
@@ -54,6 +61,7 @@ let Ini = React.createClass({
 		)
 	}
 })
+
 
 
 ReactDom.render(
@@ -71,6 +79,9 @@ ReactDom.render(
 				<Route path="/gettin" component={GettingStarted}>
 					<Route path="count" component={Count} />
 					<Route path="filters" component={Filters} />
+				</Route>
+				<Route path="/jscript" component={JScript}>
+					<Route path="intro-lodash" component={introLodash} />
 				</Route>
 			</Route>
 		</Router>
