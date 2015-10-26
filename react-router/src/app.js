@@ -14,6 +14,17 @@ import Count from './components/GettingStarted/count.jsx';
 import Filters from './components/GettingStarted/filters.jsx';
 import JScript from './components/java-script/menu.jsx';
 import introLodash from './components/java-script/intro-lodash.jsx';
+import EggHead from './components/Egghead-io/menu.jsx';
+import introProps from './components/Egghead-io/intro-props.jsx';
+import StateBasics from './components/Egghead-io/state-basics.jsx';
+import Realtionship from './components/Egghead-io/owner-realtionship.jsx';
+import RefsAccess from './components/Egghead-io/refs-access.jsx';
+import MountingBasics from './components/Egghead-io/mounting-basics.jsx';
+import Updating from './components/Egghead-io/updating.jsx';
+import Mixins from './components/Egghead-io/mixins.jsx';
+import ComposableComponents from './components/Egghead-io/composable-components.jsx';
+import DynamicallyGenerated from './components/Egghead-io/dynamically-generated.jsx';
+import ReactLink from './components/Egghead-io/react-link.jsx';
 
 let history = createHashHistory({
 	queryKey : false
@@ -52,6 +63,11 @@ let Ini = React.createClass({
 								JavaScript
 							</Link>
 						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/eggHead">
+								Egghead IO
+							</Link>
+						</li>
 					</ul>
 				</div>
 				<div style={styles.CHILDREN_CONTAINER}>
@@ -82,6 +98,18 @@ ReactDom.render(
 				</Route>
 				<Route path="/jscript" component={JScript}>
 					<Route path="intro-lodash" component={introLodash} />
+				</Route>
+				<Route path="/eggHead" component={EggHead}>
+					<Route path="intro-props" component={introProps} />
+					<Route path="state-basics" component={StateBasics} />
+					<Route path="owner-realtionship" component={Realtionship} />
+					<Route path="refs-access" component={RefsAccess} />
+					<Route path="mounting-basics" component={MountingBasics} />
+					<Route path="updating" component={Updating} />
+					<Route path="mixins" component={Mixins} />
+					<Route path="composable-components" component={ComposableComponents} />
+					<Route path="dynamically-generated" component={DynamicallyGenerated} />
+					<Route path="react-link" component={ReactLink} />
 				</Route>
 			</Route>
 		</Router>

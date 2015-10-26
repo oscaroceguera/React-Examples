@@ -14,12 +14,14 @@ export const MENU = {
 export const LIST = {
 	margin : 0,
 	padding : 0,
-	display : 'flex'
+	display : 'flex',
+	flexWrap : 'wrap'
 }
 
 export const LIST_ITEMS = {
 	listStyle : 'none',
 	padding : 0,
+	marginTop : '.5em',
 	marginRight : '.5em'
 }
 
