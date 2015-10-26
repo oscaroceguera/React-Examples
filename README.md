@@ -13,7 +13,7 @@
 * [x] [Route Configuration](https://github.com/rackt/react-router/blob/master/docs/guides/basics/RouteConfiguration.md)
 
 ## [egghead.io](https://egghead.io)
- * [ ] [React Fundamentals](https://egghead.io/series/react-fundamentals) (All videos)
+ * [x] [React Fundamentals](https://egghead.io/series/react-fundamentals) (All videos)
 
 ## [tylermcginnis](http://tylermcginnis.com/blog/)
 * [ ] [A Comprehensive Guide to Building Apps with React.j](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
