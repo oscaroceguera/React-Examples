@@ -27,6 +27,7 @@
 ## [medium.com](medium.com)
 * [ ] [Flux: Getting Past the Learning Curve](https://medium.com/@tribou/react-and-flux-for-the-rest-of-us-61f90869d51f)
 
+## [React Style](https://andreypopp.com/posts/2014-08-06-react-style.html)
 
 ## [tutorialzine](http://tutorialzine.com/)
 * [ ] [5 practical examples](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
