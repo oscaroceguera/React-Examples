@@ -25,6 +25,11 @@ import Mixins from './components/Egghead-io/mixins.jsx';
 import ComposableComponents from './components/Egghead-io/composable-components.jsx';
 import DynamicallyGenerated from './components/Egghead-io/dynamically-generated.jsx';
 import ReactLink from './components/Egghead-io/react-link.jsx';
+import Five from './components/five-pratical-examples/menu.jsx';
+import Timer from './components/five-pratical-examples/timer/timer.jsx';
+import MenuNav from './components/five-pratical-examples/menu-nav/menu.jsx';
+import RealTimeSearch from './components/five-pratical-examples/real-time-search/real-time-search.jsx';
+import OrderForm from './components/five-pratical-examples/order-form/order-form.jsx';
 
 let history = createHashHistory({
 	queryKey : false
@@ -66,6 +71,11 @@ let Ini = React.createClass({
 						<li className="hoverLink" style={styles.MENU_LI}>
 							<Link style={styles.LINK} to="/eggHead">
 								Egghead IO
+							</Link>
+						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/five">
+								5 Practical Examples
 							</Link>
 						</li>
 					</ul>
@@ -110,6 +120,12 @@ ReactDom.render(
 					<Route path="composable-components" component={ComposableComponents} />
 					<Route path="dynamically-generated" component={DynamicallyGenerated} />
 					<Route path="react-link" component={ReactLink} />
+				</Route>
+				<Route path="/five" component={Five}>
+					<Route path="timer" component={Timer} />
+					<Route path="menu" component={MenuNav} />
+					<Route path="real-time-search" component={RealTimeSearch} />
+					<Route path="order-form" component={OrderForm} />
 				</Route>
 			</Route>
 		</Router>

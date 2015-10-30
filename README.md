@@ -27,6 +27,7 @@
 ## [medium.com](medium.com)
 * [ ] [Flux: Getting Past the Learning Curve](https://medium.com/@tribou/react-and-flux-for-the-rest-of-us-61f90869d51f)
 
+## [Dynamic children - Why th e keys are important](http://blog.arkency.com/2014/10/react-dot-js-and-dynamic-children-why-the-keys-are-important/)
 
 ## [tutorialzine](http://tutorialzine.com/)
 * [ ] [5 practical examples](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
@@ -44,3 +45,5 @@
 
 ## [christianalfoni](http://christianalfoni.github.io/)
 ## [http://brandontilley.com/](http://brandontilley.com/2014/09/24/custom-react-components-and-the-valuelink-property.html)
+
+## [Flux CRUD] (https://github.com/bjrmatos/curso-reactjs/tree/master/3_flux-crud)
