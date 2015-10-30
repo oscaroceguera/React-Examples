@@ -30,6 +30,8 @@ import Timer from './components/five-pratical-examples/timer/timer.jsx';
 import MenuNav from './components/five-pratical-examples/menu-nav/menu.jsx';
 import RealTimeSearch from './components/five-pratical-examples/real-time-search/real-time-search.jsx';
 import OrderForm from './components/five-pratical-examples/order-form/order-form.jsx';
+import Brandon from './components/brandon-tilley/menu.jsx';
+import TextInput from './components/brandon-tilley/text-input.jsx';
 
 let history = createHashHistory({
 	queryKey : false
@@ -76,6 +78,11 @@ let Ini = React.createClass({
 						<li className="hoverLink" style={styles.MENU_LI}>
 							<Link style={styles.LINK} to="/five">
 								5 Practical Examples
+							</Link>
+						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/brandon">
+								Brandon Tilley
 							</Link>
 						</li>
 					</ul>
@@ -126,6 +133,9 @@ ReactDom.render(
 					<Route path="menu" component={MenuNav} />
 					<Route path="real-time-search" component={RealTimeSearch} />
 					<Route path="order-form" component={OrderForm} />
+				</Route>
+				<Route path="/brandon" component={Brandon}>
+					<Route path="text-input" component={TextInput} />
 				</Route>
 			</Route>
 		</Router>

@@ -20,7 +20,7 @@ const H1 = {
 }
 
 const TOTAL = {
-	background : 'none',
+	background : 'red',
    	cursor : 'default',
    	paddingTop : '10px'
 }
@@ -54,7 +54,7 @@ let ServiceChooser = React.createClass({
 				<h1 style={H1}>Our Services</h1>
 				<div style={SERVICES}>
 					{services}
-					<p style={TOTAL}>Total <b>${this.state.total.toFixed(2)}</b></p>
+					<p style={{ display : (this.state.total <= 0 ? 'block' : 'none'), color : 'red' }}>Total <b>${this.state.total.toFixed(2)}</b></p>
 				</div>
 			</div>
 		)
@@ -81,7 +81,7 @@ let Service = React.createClass({
 
 	render(){
 		return (
-			<p className={this.state.active ? 'active' : ''} onClick={this.clickHandler}>
+			<p style={{ diplay : (this.state.active ? 'block' : 'none') }} onClick={this.clickHandler}>
 				{this.props.name} <b>${this.props.price.toFixed(2)}</b>
 			</p>
 		)

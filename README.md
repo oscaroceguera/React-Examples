@@ -21,8 +21,8 @@
 * [ ] [Architecting React.js Apps with Flux](http://tylermcginnis.com/reactjs-tutorial-pt-3-architecting-react-js-apps-with-flux/)
 
 ## [abalozz](http://abalozz.es/)
-* [ ] [Comenzando con React](http://abalozz.es/comenzando-con-react/)
-* [ ] [Reutiliza tu código en React usando mixins](http://abalozz.es/reutiliza-tu-codigo-en-react-usando-mixins/)
+* [x] [Comenzando con React](http://abalozz.es/comenzando-con-react/)
+* [x] [Reutiliza tu código en React usando mixins](http://abalozz.es/reutiliza-tu-codigo-en-react-usando-mixins/)
 
 ## [medium.com](medium.com)
 * [ ] [Flux: Getting Past the Learning Curve](https://medium.com/@tribou/react-and-flux-for-the-rest-of-us-61f90869d51f)
@@ -33,7 +33,7 @@
 
 
 ## [tutorialzine](http://tutorialzine.com/)
-* [ ] [5 practical examples](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
+* [x] [5 practical examples](http://tutorialzine.com/2014/07/5-practical-examples-for-learning-facebooks-react-framework/)
 
 ## Examples (very Good)
 * [ ] [jspears](http://jspears.github.io/subschema/#/)
@@ -47,6 +47,6 @@
 * [ ] [Adding authentication to your React Flux app](https://auth0.com/blog/2015/04/09/adding-authentication-to-your-react-flux-app/)
 
 ## [christianalfoni](http://christianalfoni.github.io/)
-## [http://brandontilley.com/](http://brandontilley.com/2014/09/24/custom-react-components-and-the-valuelink-property.html)
+## [http://brandontilley.com/](http://brandontilley.com/2014/09/24/custom-react-components-and-the-valuelink-property.html) Ya
 
 ## [Flux CRUD] (https://github.com/bjrmatos/curso-reactjs/tree/master/3_flux-crud)
