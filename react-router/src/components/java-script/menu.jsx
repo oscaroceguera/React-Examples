@@ -12,15 +12,6 @@ let EggMenu = React.createClass({
 						<li style={styles.LIST_ITEMS}>
 							<Link style={styles.LINK_ITEM} to="/jscript/intro-lodash">Intro Lodash</Link>
 						</li>
-						{/*<li><Link to="">State Basics</Link></li>
-						<li><Link to="">Filters</Link></li>
-						<li><Link to="">Filters</Link></li>
-						<li><Link to="">Filters</Link></li>
-						<li><Link to="">Filters</Link></li>
-						<li><Link to="">Filters</Link></li>
-						<li><Link to="">Filters</Link></li>
-						<li><Link to="">Filters</Link></li>
-						<li><Link to="">Filters</Link></li>*/}
 					</ul>
 				</div>
 				<div style={styles.CONTAINER}>

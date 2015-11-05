@@ -25,7 +25,10 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "events": "^1.1.0",
+    "flux": "^2.1.1",
     "history": "^1.12.5",
+    "keymirror": "^0.1.1",
     "lodash": "^3.10.1",
     "normalize.css": "^3.0.3",
     "react": "^0.14.0",

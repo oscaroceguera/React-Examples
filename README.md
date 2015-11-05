@@ -16,9 +16,9 @@
  * [x] [React Fundamentals](https://egghead.io/series/react-fundamentals) (All videos)
 
 ## [tylermcginnis](http://tylermcginnis.com/blog/)
-* [ ] [A Comprehensive Guide to Building Apps with React.j](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
-* [ ] [Building React Applications with Gulp and Browserify](http://tylermcginnis.com/reactjs-tutorial-pt-2-building-react-applications-with-gulp-and-browserify/)
-* [ ] [Architecting React.js Apps with Flux](http://tylermcginnis.com/reactjs-tutorial-pt-3-architecting-react-js-apps-with-flux/)
+* [x] [A Comprehensive Guide to Building Apps with React.j](http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/)
+* [x] [Building React Applications with Gulp and Browserify](http://tylermcginnis.com/reactjs-tutorial-pt-2-building-react-applications-with-gulp-and-browserify/)
+* [x] [Architecting React.js Apps with Flux](http://tylermcginnis.com/reactjs-tutorial-pt-3-architecting-react-js-apps-with-flux/)
 
 ## [abalozz](http://abalozz.es/)
 * [x] [Comenzando con React](http://abalozz.es/comenzando-con-react/)
