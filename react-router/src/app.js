@@ -35,6 +35,7 @@ import TextInput from './components/brandon-tilley/text-input.jsx';
 import MenuTyler from './components/tylermcginnis/menu.jsx';
 import FriendsContainer from './components/tylermcginnis/comprehensive-guide/friends-container.jsx';
 import TylerFlux from './components/tylermcginnis/architecting-flux/app.js';
+import LearningCurve from './components/flux-learning-curve/components/learning-curve.jsx';
 
 let history = createHashHistory({
 	queryKey : false
@@ -93,6 +94,11 @@ let Ini = React.createClass({
 								Tylermcginnis
 							</Link>
 						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/learning-curve">
+								Flux: Learning Curve
+							</Link>
+						</li>
 					</ul>
 				</div>
 				<div style={styles.CHILDREN_CONTAINER}>
@@ -149,6 +155,8 @@ ReactDom.render(
 					<Route path="comprehensive-guide" component={FriendsContainer} />
 					<Route path="flux" component={TylerFlux} />
 				</Route>
+				<Route path="/learning-curve" component={LearningCurve} />
+
 			</Route>
 		</Router>
 

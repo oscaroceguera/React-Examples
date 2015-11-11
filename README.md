@@ -25,7 +25,7 @@
 * [x] [Reutiliza tu código en React usando mixins](http://abalozz.es/reutiliza-tu-codigo-en-react-usando-mixins/)
 
 ## [medium.com](medium.com)
-* [ ] [Flux: Getting Past the Learning Curve](https://medium.com/@tribou/react-and-flux-for-the-rest-of-us-61f90869d51f)
+* [x] [Flux: Getting Past the Learning Curve](https://medium.com/@tribou/react-and-flux-for-the-rest-of-us-61f90869d51f)
 
 ## [Dynamic children - Why th e keys are important](http://blog.arkency.com/2014/10/react-dot-js-and-dynamic-children-why-the-keys-are-important/)
 
