@@ -49,4 +49,4 @@
 ## [christianalfoni](http://christianalfoni.github.io/)
 ## [http://brandontilley.com/](http://brandontilley.com/2014/09/24/custom-react-components-and-the-valuelink-property.html) Ya
 
-## [Flux CRUD] (https://github.com/bjrmatos/curso-reactjs/tree/master/3_flux-crud)
+## [Flux CRUD] (https://github.com/bjrmatos/curso-reactjs/tree/master/3_flux-crud) Ya
