@@ -3,8 +3,8 @@
 
 ## [scotch](https://scotch.io)
  * [x] [Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
- * [ ] [Getting To Know Flux, Architecture](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
- * [ ] [Creating A Simple Shopping Cart with Flux](https://scotch.io/tutorials/creating-a-simple-shopping-cart-with-react-js-and-flux)
+ * [x] [Getting To Know Flux, Architecture](https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture)
+ * [x] [Creating A Simple Shopping Cart with Flux](https://scotch.io/tutorials/creating-a-simple-shopping-cart-with-react-js-and-flux)
  * [ ] [Build A Real-Time Twitter Stream with Node and React.js](https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js)
 
 ## [react/router](https://github.com/rackt/react-router)

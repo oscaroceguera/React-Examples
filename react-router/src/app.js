@@ -37,6 +37,7 @@ import FriendsContainer from './components/tylermcginnis/comprehensive-guide/fri
 import TylerFlux from './components/tylermcginnis/architecting-flux/app.js';
 import LearningCurve from './components/flux-learning-curve/components/learning-curve.jsx';
 import ThreeFluxCrud from './components/3-flux-CRUD/app.jsx';
+import ShoppingCart from './components/shopping-cart/app.js';
 
 let history = createHashHistory({
 	queryKey : false
@@ -105,6 +106,11 @@ let Ini = React.createClass({
 								Flux CRUD
 							</Link>
 						</li>
+						<li className="hoverLink" style={styles.MENU_LI}>
+							<Link style={styles.LINK} to="/shopping">
+								Creating a simple shopping cart with react js and flux
+							</Link>
+						</li>
 					</ul>
 				</div>
 				<div style={styles.CHILDREN_CONTAINER}>
@@ -163,6 +169,7 @@ ReactDom.render(
 				</Route>
 				<Route path="/learning-curve" component={LearningCurve} />
 				<Route path="/flux-crud" component={ThreeFluxCrud} />
+				<Route path="/shopping" component={ShoppingCart} />
 
 			</Route>
 		</Router>
